@@ -4,3 +4,9 @@ version = "0.1.0"
 authors = ["Camden Narzt <admin@silversshadows.com>"]
 
 [dependencies]
+
+[profile.release]
+panic = "abort"
+
+[profile.dev]
+panic = "abort"
